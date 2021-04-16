@@ -28,7 +28,7 @@
 <div class="container-fluid">
   <header class="header bg-white">
     <div class="container px-0 px-lg-3">
-      <nav class="navbar navbar-expand-lg navbar-light py-3 px-lg-0"><a class="navbar-brand" href="index.html"><span class="font-weight-bold text-uppercase text-dark">RITELWORLD</span></a>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light py-3 px-lg-0"><a class="navbar-brand" href="index.html"><span class="font-weight-bold text-uppercase text-dark">RITELWORLD</span></a>
         <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
           <ul class="navbar-nav mr-auto">
@@ -45,7 +45,13 @@
               <div class="dropdown-menu mt-3" aria-labelledby="pagesDropdown"><a class="dropdown-item border-0 transition-link" href="index.html">Homepage</a><a class="dropdown-item border-0 transition-link" href="shop.html">Category</a><a class="dropdown-item border-0 transition-link" href="detail.html">Product detail</a><a class="dropdown-item border-0 transition-link" href="cart.html">Shopping cart</a><a class="dropdown-item border-0 transition-link" href="checkout.html">Checkout</a></div>
             </li>
           </ul>
-          <ul class="navbar-nav ml-auto">               
+          <ul class="navbar-nav ml-auto"> 
+            <li class="nav-item">
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-warning" type="submit"><i class="fas fa-search"></i></button>
+              </form>
+            </li>              
             <li class="nav-item"><a class="nav-link" href="cart.html"> <i class="fas fa-dolly-flatbed mr-1 text-gray"></i>Cart<small class="text-gray">(2)</small></a></li>
             <li class="nav-item"><a class="nav-link" href="#"> <i class="far fa-heart mr-1"></i><small class="text-gray"> (0)</small></a></li>
             <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-user-alt mr-1 text-gray"></i>Login</a></li>
@@ -111,7 +117,7 @@
   <div class="row">
     <div class="col-md-4">	
       <figure class="item-feature">
-        <span class="text-primary"><i class="fa fa-2x fa-truck"></i></span>
+        <span class="text-warning"><i class="fa fa-2x fa-truck"></i></span>
         <figcaption class="pt-3">
           <h5 class="title bold">Fast delivery</h5>
           <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -121,7 +127,7 @@
     </div><!-- col // -->
     <div class="col-md-4">
       <figure class="item-feature">
-        <span class="text-primary"><i class="fa fa-2x fa-landmark"></i></span>	
+        <span class="text-success"><i class="fa fa-2x fa-landmark"></i></span>	
         <figcaption class="pt-3">
           <h5 class="title bold">Creative Strategy</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -145,6 +151,93 @@
   </div> <!-- container .//  -->
   </section>
   <!-- ********** END OF FEATURE ********* -->
+
+<!-- ********** POPULAR PRODUCT ********* -->
+<section class="section-content py-sm-5 my-5">
+<div class="container">
+  <h3 class="bold text-center">Popular Product</h3>
+  <div class="row">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-sm-6">
+            <div class="product-style-grey mt-30">
+                <div class="product-image">
+                    <div class="product-item active">
+                        <img src="assets/images/product-5.png" alt="product" class="img-fluid">
+                    </div>
+                    <a class="add-wishlist" href="#0">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+                <div class="product-content">
+                    <span class="rating "><i class="fas fa-star text-warning"></i> 4.5/5</span>
+                    <h4 class="title"><a href="#0">Ritel Product</a></h4>
+                    <a href="#0" class="btn btn-primary"> <img src="assets/images/cart.svg" alt=""> $ 399</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="product-style-grey mt-30">
+              <div class="product-image">
+                  <div class="product-item active">
+                      <img src="assets/images/product-5.png" alt="product" class="img-fluid">
+                  </div>
+                  <a class="add-wishlist" href="#0">
+                      <i class="far fa-heart"></i>
+                  </a>
+              </div>
+              <div class="product-content">
+                  <span class="rating "><i class="fas fa-star text-warning"></i> 4.5/5</span>
+                  <h4 class="title"><a href="#0">Ritel Product</a></h4>
+                  <a href="#0" class="btn btn-primary"> <img src="assets/images/cart.svg" alt=""> $ 399</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <div class="product-style-grey mt-30">
+            <div class="product-image">
+                <div class="product-item active">
+                    <img src="assets/images/product-5.png" alt="product" class="img-fluid">
+                </div>
+                <a class="add-wishlist" href="#0">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-content">
+                <span class="rating "><i class="fas fa-star text-warning"></i> 4.5/5</span>
+                <h4 class="title"><a href="#0">Ritel Product</a></h4>
+                <a href="#0" class="btn btn-primary"> <img src="assets/images/cart.svg" alt=""> $ 399</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-sm-6">
+      <div class="product-style-grey mt-30">
+          <div class="product-image">
+              <div class="product-item active">
+                  <img src="assets/images/product-5.png" alt="product" class="img-fluid">
+              </div>
+              <a class="add-wishlist" href="#0">
+                  <i class="far fa-heart"></i>
+              </a>
+          </div>
+          <div class="product-content">
+              <span class="rating "><i class="fas fa-star text-warning"></i> 4.5/5</span>
+              <h4 class="title"><a href="#0">Ritel Product</a></h4>
+              <a href="#0" class="btn btn-primary"> <img src="assets/images/cart.svg" alt=""> $ 399</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+</section>
+<!-- ********** END OF POPULAR PRODUCT ********* -->
 
 
   <script src="/assets/js/bootstrap.bundle.min.js"></script>

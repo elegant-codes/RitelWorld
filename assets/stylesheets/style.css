@@ -155,3 +155,36 @@ a.view-demo:hover {
 .title {
   font-weight: 700;
 }
+
+.product-style-grey .product-image {
+  position: relative;
+}
+
+.product-style-grey .product-image .add-wishlist {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 24px;
+  color: #e14c7b;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 9;
+  transition: all 0.3s linear;
+}
+
+.product-style-grey .product-image .add-wishlist:hover {
+  color: #564ce1;
+}
+
+.product-style-grey .product-content .title a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(37, 37, 37);
+  transition: all 0.3s linear;
+  margin-top: 4px;
+  text-decoration: none;
+}
